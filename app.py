@@ -11,30 +11,67 @@ t.shape('turtle')
     print(input)
 message("Hi turtle") """
 
-# t.right(90)
-# t.forward(200)
-# t.right(90)
-# t.forward(200)
-# t.right(90)
-# t.forward(200)
+# def sq():
+#     t.right(90)
+#     t.forward(200)
+#     t.right(90)
+#     t.forward(200)
+#     t.right(90)
+#     t.forward(200)
+# sq()
 
-# t.forward(150)
-# t.left(135)
-# t.forward(100)
-# t.left(90)
-# t.forward(105)
+# def tr():
+#     t.forward(150)
+#     t.left(135)
+#     t.forward(100)
+#     t.left(90)
+#     t.forward(105)
+# tr()
 
-# t.forward(80)
-# t.left(135)
-# t.forward(100)
-# t.left(135)
-# t.forward(80)
-# turtle.done()
+# def y():
+#     t.forward(80)
+#     t.left(135)
+#     t.forward(100)
+#     t.left(135)
+#     t.forward(80)
+#     turtle.done()
+# y()
 
-t.forward(100)
-t.left(90)
-t.forward(125)
-t.left(90)
-t.forward(100)
-t.left(90)
-t.forward(125)
+# def c():
+#     t.forward(100)
+#     t.left(90)
+#     t.forward(125)
+#     t.left(90)
+#     t.forward(100)
+#     t.left(90)
+#     t.forward(125)
+# c()
+
+""" def x():
+    t.forward(90)
+    t.left (120)
+    t.forward(90)
+    t.left(120)
+    t.forward(90)
+x() """
+
+
+#variables here only accessible in the function, SCOPE
+# def add(x,y):
+#     return x+y
+# #call the function
+# z = add(5,15)
+# print(z)
+
+
+
+# #loops programming
+
+# for i in range(3):
+#     print(i)
+
+for i in range(4):
+    t.forward(100)
+    t.left(90)
+turtle.done
+
