@@ -70,8 +70,17 @@ x() """
 # for i in range(3):
 #     print(i)
 
-for i in range(4):
-    t.forward(100)
-    t.left(90)
+# for i in range(4):
+#     t.forward(100)
+#     t.left(90)
+# turtle.done
+
+t.speed(10)
+
+def square():
+    for i in range(4):
+        t.forward(100)
+        t.left(90)
+square(100,90)
 turtle.done
 
